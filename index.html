@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <main class="container">
+        <div class="icone">
+            <img src="">
+        </div>
+        <h1>DEVOLUÇÃO SEM VOLTA</h1>
+        <p>prença o seu formulario na sua conta, a sua devolução</p>
+        <form id="formulario">
+            <!-- Campo Nome -->
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" placeholder="Digite sue nome" required>
+
+            <!-- Campo EMAIL -->
+            <label for="email">Digite o Email</label>
+            <input type="email" id="email" placeholder="Digite o seu email" required>
+
+            <!-- Campo TELEFONE -->
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" placeholder="(11)1234-5678" required>
+
+            <!-- CAMPO DE PLODUTO -->
+             <label for="cargo">Tipo de Ploduto</label>
+             <select id="cargo">
+                <option value="">Selecione o seu ploduto</option>
+                <option value="Fogão">Fogão</option>
+                <option value="Geladeira">Geladeira</option>
+                <option value="Guarda Roupa">Guarda Roupa</option>
+                <option value="TV">TV</option>
+             </select>
+
+             <!-- CAMPO DE OBSERVAÇÕES -->
+
+             <label for="mensagen">OBSERVAÇÕES</label>
+             <textarea name="mensagen" id="Digite o Motivo da sua Devolução"></textarea>
+
+             <button type="submit">Enviar solicitção</button>
+
+        </form>
+
+    </main>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
